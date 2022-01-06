@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+body{
+    margin: 0px;
+}
+
+.topnav{
+    width:100%;
+    overflow:none;
+    /*background-color: #1e847f;*/
+    height: 600px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+    background: linear-gradient(to top left, #660066 0%, #3333cc 100%);
+    position: sticky;
+    
+}
+
+.topnav ul  {
+    font-family: lato;
+    color:white;
+    margin-left: 350px;
+    text-decoration: none;
+    display: contents;
+    margin-right:10px;
+    margin-top: 0px;
+}
+.topnav ul li{
+    
+    font-family: lato;
+    color:white;
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    
+}
+.topnav ul li a{
+    font-family: lato;
+    color:white;
+    text-decoration: none;
+}
+
+a.active,a:hover{
+    text-decoration: none;
+    
+   
+}
+
+.wit{
+    margin: 100px 100px;
+}
+.wit h1{
+    font-family: 'Pushster', cursive;
+}
+.intro{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+
+.shehacks{
+    position: relative;
+}
+
+.shehacks-deatils{
+    position: absolute;
+}
+.venue-date{
+    margin: 70px 0px 100px 700px;
+    color: white;
+    
+}
+.tagline{
+    
+    font-size: 55px;
+    font-family: 'Shizuru', cursive;
+    
+}
+.headline-details{
+    font-family: 'Moon Dance', cursive;
+    font-size: 35px;
+    
+}
+.vd{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 35px;
+    
+
+}
+button{
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 50px;
+    margin:  600px 100px 200px 250px;
+    cursor: pointer;
+    color: purple;
+    float: left;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px -1px 19px 1px rgba(255,255,255,0.6); 
+box-shadow: 0px -1px 19px 1px rgba(255,255,255,0.6);
+}
+
+button:hover{
+    background: #cb60b3;
+background: -moz-linear-gradient(-45deg,  #cb60b3 0%, #a80077 2%, #a80077 2%, #c146a1 74%, #db36a4 100%);
+background: -webkit-linear-gradient(-45deg,  #cb60b3 0%,#a80077 2%,#a80077 2%,#c146a1 74%,#db36a4 100%);
+background: linear-gradient(135deg,  #cb60b3 0%,#a80077 2%,#a80077 2%,#c146a1 74%,#db36a4 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=1 );
+
+    color: white;
+}
+
+.themes{
+margin-right: auto;
+margin-left: auto;
+display: block;
+margin-top: 15px;
+}
+.theme-cards{
+    padding: 50px;
+    margin: 50px;
+    float: left;
+}
+.cybersecurity{
+    height: 300px;
+    width:300px;
+    background-image: url("cybersecurity.jpg");
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-right: 800px;
+
+}
+.cybersecurity::after{
+    content: "Cybersecurity";
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding-top: 55px;
+}
+
+
+.cybersecurity:hover::after{
+    opacity: 0.7;
+    content: "Encrypt the world.Data security for the modern enterprise";
+    font-size: 30px;
+}
+
+
+.sustainability{
+    height: 300px;
+    width:300px;
+    background-image: url("sustainability.jpg");
+    text-align: center;
+    margin-right: 100px;
+    
+    margin-left: 600px;
+    margin-top: 15px;
+    
+
+}
+.sustainability::after{
+    content: "Sustainability";
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    padding-top: 55px;
+
+}
+.sustainability:hover::after{
+    opacity: 0.7;
+    content: "Don't throw it away, it can be used in some other way.For a better future for you and me, Think Sustainability.";
+    font-size: 30px;
+}
+
+.th{
+    margin-left: 600px;
+}
+
+.contact{
+    align-content: center;
+    font-size: 20px;
+
+}
+/*.pic{
+    position: relative;
+}*/
+.ending ul {
+    font-family: lato;
+    color:white;
+    margin-left: 350px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right:10px;
+    margin-top: 0px;
+    position:absolute
+    
+}
+.ending ul {
+    font-family: lato;
+    color:white;
+    margin-left: 350px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right:10px;
+    margin-top: 0px;
+    position:absolute
+    
+}
+/*.ending ul li{
+    font-family: lato;
+    color:white;
+    margin-left: 350px;
+    text-decoration: none;
+    font-size: 25px;
+    visibility: visible;
+    position:absolute
+    
+}*/
+li.active{
+    color: white;
+}
+
+
+
+
